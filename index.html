@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grocery Store</title>
+    <link rel="icon" href="assets/images/grocery.png">
+  </head>
+  <body>
+    <header>
+      <h1><img src="assets/images/grocery.png" height="40" width="40">Grocery Store</h1>
+      <nav>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#vegetables">Vegetables</a></li>
+        <li><a href="#fruits">Fruits</a></li>
+        <li><a href="#login">Login</a></li>
+      </nav>
+    </header>
+    <section>
+      <div>
+        <h3 id="vegetables">Vegetables</h3>
+        <div>
+          <img
+            src="assets/images/Tomato.jpg"
+            alt="Its a Tomato"
+            width="200"
+            height="200"
+          />
+          <h5>Tomato</h5>
+          <p class="price">$5.26</p>
+          <label>Quantity</label>
+          <input type="number" /><br />
+          <button>Add to cart</button>
+          <button>Buy Now</button>
+        </div>
+        <div>
+          <img src="assets/images/carrot.jpg" alt="Its a carrot" width="300" />
+          <h5>Carrot</h5>
+          <p class="price">$3.05</p>
+          <label>Quantity</label>
+          <input type="number" /><br />
+          <button>Add to cart</button>
+          <button>Buy Now</button>
+        </div>
+        <div>
+          <img src="assets/images/onion.jpg" alt="Its a Onion" width="300" />
+          <h5>Onion</h5>
+          <p class="price">$2.56</p>
+          <label>Quantity</label>
+          <input type="number" /><br />
+          <button>Add to cart</button>
+          <button>Buy Now</button>
+        </div>
+        <div>
+          <img
+            src="assets/images/Brinjal.jpg"
+            alt="Its a Brinjal"
+            width="300"
+          />
+          <h5>Brinjal</h5>
+          <p class="price">$1.94</p>
+          <label>Quantity</label>
+          <input type="number" /><br />
+          <button>Add to cart</button>
+          <button>Buy Now</button>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div>
+        <h3 id="fruits">Fruits</h3>
+        <div>
+          <img src="assets/images/Apple.jpg" alt="Its a Apple" />
+          <h5>Apple</h5>
+          <p class="price">$10.73</p>
+          <label>Quantity</label>
+          <input type="number" /><br />
+          <button>Add to cart</button>
+          <button>Buy Now</button>
+        </div>
+        <div>
+          <img src="assets/images/Banana.jpg" alt="Its a banana" width="350" />
+          <p class="price">$4.64</p>
+          <label>Quantity</label>
+          <input type="number" /><br />
+          <button>Add to cart</button>
+          <button>Buy Now</button>
+        </div>
+        <div>
+          <img
+            src="assets/images/strawberry.jpg"
+            alt="Its a Strawberry"
+            width="250"
+            height="250"
+          />
+          <h5>Strawberry</h5>
+          <p class="price">$15.42</p>
+          <label>Quantity</label>
+          <input type="number" /><br />
+          <button>Add to cart</button>
+          <button>Buy Now</button>
+        </div>
+        <div>
+          <img src="assets/images/grapes.jpg" alt="Its a Grapes" width="300" />
+          <h5>Grapes</h5>
+          <p class="price">$13.19</p>
+          <label>Quantity</label>
+          <input type="number" /><br />
+          <button>Add to cart</button>
+          <button>Buy Now</button>
+        </div>
+      </div>
+    </section>
+    <form action="./pages/login.html">
+      <li>
+        <label id="login" for="uname">Username</label>
+        <input type="text" id="name" required />
+      </li>
+      <li>
+        <label for="Password">Password</label>
+        <input type="password" required />
+      </li>
+      <button>Login</button>
+    </form>
+  </body>
+</html>
